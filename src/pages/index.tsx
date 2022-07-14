@@ -21,9 +21,8 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
-      <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
+      <h1>Melissa Julie Anne Hicks</h1>
+      <p>Contemporary Artist</p>
       <Link to="/about">About</Link>
     </div>
   </Layout>

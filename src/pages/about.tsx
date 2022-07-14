@@ -4,7 +4,7 @@ import Seo from "../components/seo"
 
 import { graphql } from "gatsby"
 
-type IData = {
+type AboutPageProps = {
   data: {
     allContentfulAbout: {
       edges: [
@@ -25,7 +25,7 @@ type IData = {
   }
 }
 
-const AboutPage = ({ data }: IData) => {
+const AboutPage = ({ data }: AboutPageProps) => {
   const about = data.allContentfulAbout.edges[0].node
   return (
     <Layout>
