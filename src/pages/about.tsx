@@ -30,7 +30,8 @@ const AboutPage = ({ data }: AboutPageProps) => {
   return (
     <Layout>
       <Seo title="About" />
-      <h1>{about.name}</h1>
+      <h1>About</h1>
+      <h2>{about.name}</h2>
       <img
         src={about.profilePicture.url}
         alt={about.profilePicture.description}
