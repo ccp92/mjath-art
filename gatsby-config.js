@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Melissa Hicks`,
+    description: `Art portfolio and store for Melissa Hicks.`,
+    author: `@ccp92`,
+    siteUrl: `https://mjathartmain.gtsb.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `mjath-art`,
+        short_name: `art`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
