@@ -16,6 +16,7 @@ type IData = {
             }
             profilePicture: {
               url: string
+              description: string
             }
           }
         }
@@ -30,7 +31,10 @@ const AboutPage = ({ data }: IData) => {
     <Layout>
       <Seo title="About" />
       <h1>{about.name}</h1>
-      <img src={about.profilePicture.url} alt="" />
+      <img
+        src={about.profilePicture.url}
+        alt={about.profilePicture.description}
+      />
       <div
         dangerouslySetInnerHTML={{ __html: about.description.description }}
       />
@@ -50,6 +54,7 @@ export const query = graphql`
           }
           profilePicture {
             url
+            description
           }
         }
       }
