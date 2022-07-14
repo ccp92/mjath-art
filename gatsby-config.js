@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Melissa Hicks`,
@@ -6,6 +8,14 @@ module.exports = {
     siteUrl: `https://mjathartmain.gtsb.io/`,
   },
   plugins: [
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        downloadLocal: true,
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
