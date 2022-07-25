@@ -6022,10 +6022,10 @@ gatsby-sharp@^0.13.0:
     "@types/sharp" "^0.30.0"
     sharp "^0.30.3"
 
-gatsby-source-contentful@^7.16.1:
-  version "7.16.1"
-  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-7.16.1.tgz#5c574d5d8119ed8c35d659349bb0f30ff56199ee"
-  integrity sha512-7G9l+W/Z1bGab7AiGy4hYmHXOl+1kEyELrE9Cmr9y5xkm91F+2w3e7GRXuUgb6iVtdAoVcGbRFDZ4XumrZOi8Q==
+gatsby-source-contentful@^7.17.0:
+  version "7.17.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-7.17.0.tgz#fc76a704b9513d2e1fe651cdaf2312928320797b"
+  integrity sha512-/2TwhNxHiAg6f6sEEei6LGsdxBFpaXgKzE+bYty+mFd6nCgoorl5lM0RIR0fa/Oam1Sa+SyLIu9WBjpI2qDV2A==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@contentful/rich-text-react-renderer" "^15.12.1"
@@ -6037,9 +6037,9 @@ gatsby-source-contentful@^7.16.1:
     common-tags "^1.8.2"
     contentful "^8.5.8"
     fs-extra "^10.1.0"
-    gatsby-core-utils "^3.18.1"
-    gatsby-plugin-utils "^3.12.1"
-    gatsby-source-filesystem "^4.18.1"
+    gatsby-core-utils "^3.19.0"
+    gatsby-plugin-utils "^3.13.0"
+    gatsby-source-filesystem "^4.19.0"
     is-online "^8.5.1"
     json-stringify-safe "^5.0.1"
     lodash "^4.17.21"
@@ -6049,7 +6049,7 @@ gatsby-source-contentful@^7.16.1:
     semver "^7.3.7"
     url "^0.11.0"
 
-gatsby-source-filesystem@^4.18.1, gatsby-source-filesystem@^4.19.0:
+gatsby-source-filesystem@^4.19.0:
   version "4.19.0"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-4.19.0.tgz#cd3b01d7b0b54143c5f1854933031e2f0f490db3"
   integrity sha512-UUBEqRCKpq/rWX5K8Kizmoi2Cls9oOTEtZRUrhdtMqpz5Y6VAmd7Pwina03r0fej+AoebZWOEzPTOh+WhpIDFw==
