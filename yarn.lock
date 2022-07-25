@@ -5866,15 +5866,15 @@ gatsby-parcel-config@0.10.1:
     "@parcel/transformer-raw" "2.6.2"
     "@parcel/transformer-react-refresh-wrap" "2.6.2"
 
-gatsby-plugin-gatsby-cloud@^4.18.1:
-  version "4.18.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-gatsby-cloud/-/gatsby-plugin-gatsby-cloud-4.18.1.tgz#3b41576f1e2fc947216683396f76ea693d773761"
-  integrity sha512-FDrLl3w3WHVJCzddTYcSCqEi4DLvS9e8/9LY312QnxOqPv+fnLoSDYDyqazyK9/mu6gMz8cUU7UoHsMqpZNbCg==
+gatsby-plugin-gatsby-cloud@^4.19.0:
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-gatsby-cloud/-/gatsby-plugin-gatsby-cloud-4.19.0.tgz#52d61b8662714235c59e7c85e974d856e934429c"
+  integrity sha512-3p/lXOUjJ6D0FsI32p924Ty/JlovqdwunnlBps5sESmn2FPfaBO6jVWgR3W920kFAQh1se94Ps1/NwY+9wugiQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     fs-extra "^10.1.0"
-    gatsby-core-utils "^3.18.1"
-    gatsby-telemetry "^3.18.1"
+    gatsby-core-utils "^3.19.0"
+    gatsby-telemetry "^3.19.0"
     kebab-hash "^0.1.2"
     lodash "^4.17.21"
     webpack-assets-manifest "^5.1.0"
@@ -6067,7 +6067,7 @@ gatsby-source-filesystem@^4.18.1, gatsby-source-filesystem@^4.19.0:
     valid-url "^1.0.9"
     xstate "^4.26.1"
 
-gatsby-telemetry@^3.18.1, gatsby-telemetry@^3.19.0:
+gatsby-telemetry@^3.19.0:
   version "3.19.0"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.19.0.tgz#3a77c2948dfd0b517f2bddfe0f6762dbc35624d3"
   integrity sha512-5JQcTm2zCLWTmnXOdOe0gxuk7aRZSTaVrOrytMlwAR7trvtBC/fKqMhJHsYwl5uW9K06F59ZdkC0apJTAPkGww==
